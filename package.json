@@ -1,6 +1,6 @@
 {
-  "name": "pino-seq",
-  "version": "0.8.0",
+  "name": "@kryonsystems/pino-seq",
+  "version": "0.8.1",
   "description": "A stream that sends Pino log events to Seq",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,12 @@
   "bin": {
     "pino-seq": "./cli.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datalust/pino-seq.git"
+    "url": "ssh://git@github.com/kryonsystems/fork-pino-seq.git"
   },
   "keywords": [
     "pino",
@@ -35,7 +38,7 @@
   "dependencies": {
     "@types/pino": "^5.8.6",
     "commander": "^2.20.0",
-    "seq-logging": "^0.5.0",
+    "@kryonsystems/seq-logging": "^0.5.1",
     "split2": "^3.1.1"
   }
 }
