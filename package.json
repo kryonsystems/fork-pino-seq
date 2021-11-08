@@ -1,6 +1,6 @@
 {
   "name": "@kryonsystems/pino-seq",
-  "version": "0.8.1",
+  "version": "0.8.3",
   "description": "A stream that sends Pino log events to Seq",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
   "dependencies": {
     "@types/pino": "^5.8.6",
     "commander": "^2.20.0",
-    "@kryonsystems/seq-logging": "^0.5.1",
+    "@kryonsystems/seq-logging": "^0.5.3",
     "split2": "^3.1.1"
   }
 }
